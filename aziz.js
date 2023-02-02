@@ -1,5 +1,5 @@
 function onof(){
-    if(document.getElementById('image').src='tafya.jpg'){
+    if(document.getElementById('image').match('tafya.jpg'){
         document.getElementById('image').src="che3la.jpg";
         document.getElementById('felsa').innerHTML="close it"
     }
